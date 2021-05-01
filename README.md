@@ -35,9 +35,10 @@ Low Accessibility and affordability:
 The physical access to hospitals is still the major barrier to both preventive and curative health services, and also the major differences between the Rural and the Urban India. Besides, affordability of medical expenditures is one of the biggest problems faced by patients.
 
 ## Solution
-Our web application using CNNs and ML that facilitates to test and predict the health risk of the patient based on his/her reports for which we have trained the models on unbiased and distributed datasets. 
+
+Our web application using CNNs and ML that facilitates to test and predict the health risk of the patient based on his/her reports for which we have trained the models on FPN (Feature Pyramid Network)- EfficientNet-B0 , Ranger, Mixed Precision Training sets. 
 To use our web-application, users have to simply upload their MRI scans depending upon the type of disease or cancer that they want to get diagnosed for. 
-After taking the uploaded image as input, the CNNs model at backend will generate required heatmaps and predict whether the user has that disease or not. 
+After taking the uploaded image as input, the FPN model at backend will generate required heatmaps and predict whether the user has that disease or not. 
 If yes, then the model would predict the stage of that disease/cancer with the probabilities. 
 The model uses EfficientNet architecture for convolutional neural networks with the state of art techniques to predict results for different scans and inputs.
 

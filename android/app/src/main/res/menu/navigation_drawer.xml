@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nav_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navigation_history"
+            android:title="Eye Blindness" />
+
+        <item
+            android:id="@+id/navigation_profile"
+            android:title="Brain Tumour" />
+        <item
+            android:id="@+id/navigation_contactus"
+            android:title="Skin Cancer" />
+    </group>
+
+    <item android:title="MEDIDOC">
+        <menu>
+            <item
+                android:id="@+id/navigation_about"
+                android:title="About Us" />
+            <item
+                android:id="@+id/navigation_faq"
+                android:title="FAQ's" />
+            <item
+                android:id="@+id/navigation_developer"
+                android:title="Developers"/>
+            <item
+                android:id="@+id/navigation_policy"
+                android:title="Privacy Policy" />
+        </menu>
+    </item>
+</menu>

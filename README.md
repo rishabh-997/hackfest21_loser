@@ -17,8 +17,6 @@
 
 Presently our application works for the following :
 
-**BREAST CANCER:** Breast cancer is the most frequent cancer among women, impacting 2.1 million women each year, and also causes the greatest number of cancer-related deaths among women.
-
 **DIABETIC RETINOGRAPGY:** Diabetic Retinopathy (DR) is the fastest-growing cause of blindness. There are 415 Million people with diabetes in the world today, and each one is potentially at risk of being diagnosed with DR.
 
 **BRAIN TUMOR:** Processing and analyzing MRI scans to detect and segment the tumour region with performance comparable to an average specialized neurologist..
